@@ -7,3 +7,7 @@
       ansible.builtin.apt:
         update_cache: true
       become: true
+
+  roles:
+    - python
+    - pipx
